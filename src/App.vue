@@ -1,6 +1,7 @@
 <template>
   <div class="container">
-    <Header />
+    <Header title="Hello" />
+
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import Header from './components/Header'
 export default {
   name: "App",
   components: {Header},
+
 };
 </script>
 
