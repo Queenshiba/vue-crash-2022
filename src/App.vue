@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <Header title="Hello" />
+    <Header title="Task Tracker" />
     <Tasks :tasks="tasks" />
   </div>
 </template>
@@ -13,7 +13,7 @@ export default {
   name: "App",
   components: {
     Header,
-    Tasks
+    Tasks,
   },
   data() {
     return {
